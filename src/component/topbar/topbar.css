@@ -1,0 +1,91 @@
+.top{
+    width: 102%;
+    height: 80px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+.topleft{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+    
+}
+.toplefticon{
+    font-size: 25px;
+    margin-right: 15px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topcenter{
+    flex: 6;
+    margin-left: 216px;
+    display: flex;
+}
+.inputlocation{
+    width: 28%;
+    height: 25px;
+    margin-right: 105px;
+    margin-left: -260px;
+}
+.inputtext{
+    width: 50%;
+    height: 25px;
+    
+}
+.searchicon{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #666;
+    cursor: pointer;
+}
+.topright{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toplist{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-left: 20px;
+    
+}
+.toplistitem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;    
+}
+.topimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.cart{
+    color: black;
+}
+  a:link, a:visited {
+        background-color: #666;
+        width: 90px;
+        height: 50px;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+    }
